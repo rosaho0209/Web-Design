@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #ABD2FA;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 2px solid #fff;
+    background: #091540;
+}
+.banner {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    gap: 40%;    
+    margin-right: 25%;
+    margin-left: 25%;           
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    border-radius: 50%;
+}
+.heading {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.sub-heading{
+    flex-grow: 1;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+/* Home button */
+.home-btn {
+    font-size: 28px;
+    text-decoration: none;
+    color: black;
+}
+.homepage-layout {
+    display: flex;
+    flex-direction: row; /* grid bên trái, content bên phải */
+    gap: 20px;
+    align-items: flex-start;
+}
+/* Grid layout */
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+/* Image placeholder */
+.img-box {
+    width: 100%;
+    height: 120px;
+    border: 2px solid #000;
+    background: #ffffff;
+}
+.img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+    border-radius: 0;
+}
+
+/* Title button */
+.title-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    background: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Content box */
+.content-box {
+    border: 2px solid #000;
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    height: 70%;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    border-top: 2px solid #000;
+    background: #091540;
+    color: #fff;
+
+}
